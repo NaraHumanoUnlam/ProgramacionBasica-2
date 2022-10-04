@@ -1,5 +1,7 @@
 package ar.edu.unlam.geometria;
 
+
+
 public class Figura extends Punto{
 	private Integer ladoMayor;
 	private Integer ladoMenor;
@@ -48,8 +50,7 @@ public class Figura extends Punto{
 	public void setPosicion(Punto posicion) {
 		this.posicion = posicion;
 	}
-
-
-
+	
+	
 
 }

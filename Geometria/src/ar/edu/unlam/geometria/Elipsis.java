@@ -58,7 +58,13 @@ public class Elipsis extends Figura {
 	}
 
 
-
+	public Double calcularArea(Integer radio1, Integer radio2) {
+		Double area;
+		
+		area = Math.PI*radio1*radio2;
+		
+		return area;
+	}
 
 	
 	

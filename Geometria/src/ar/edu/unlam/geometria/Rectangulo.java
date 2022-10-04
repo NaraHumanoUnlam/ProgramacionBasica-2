@@ -30,6 +30,12 @@ public class Rectangulo extends Figura{
 		this.vertice = vertice;
 	}
 	
+	public Integer calcularArea(Integer lado1,Integer lado2) {
+		Integer area;
+		area = (lado1*lado2);
+		
+		return area;
+	}
 	
 	
 	

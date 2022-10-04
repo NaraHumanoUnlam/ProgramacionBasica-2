@@ -27,11 +27,15 @@ public class Cliente {
 
 	public Boolean cantidadProductoMayor5() {
 		Boolean tieneMasProducto = false;
-		if(this.cantidadProducto>=5) {
+		if(this.cantidadProducto>5) {
 			 tieneMasProducto = true;
 		}
 		
 		return tieneMasProducto;
+	}
+	
+	public String toString() {
+		return "Cantidad de productos: "+cantidadProducto + " ubicacion: " + ubicacion;
 	}
 	
 }
